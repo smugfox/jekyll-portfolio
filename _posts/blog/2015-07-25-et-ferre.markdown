@@ -2,7 +2,7 @@
 layout: post
 title:  "Et ferre"
 date:   2015-07-25 10:16:35
-categories: jekyll update
+categories: blog
 featured: true
 tags: insperation
 ---

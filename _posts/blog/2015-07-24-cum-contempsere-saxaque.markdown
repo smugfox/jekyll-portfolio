@@ -2,7 +2,7 @@
 layout: post
 title:  "Cum contempsere saxaque"
 date:   2015-07-24 9:06:35
-categories: jekyll update
+categories: blog
 tags: layout design
 ---
 ## Curaque cum posse saevae instar
