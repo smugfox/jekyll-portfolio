@@ -3,6 +3,7 @@ layout: post
 title:  "Adparuit non crimenque ubera"
 date:   2015-07-22 11:42:35
 categories: jekyll update
+featured: true
 ---
 
 ## Ceram precatur

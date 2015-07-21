@@ -3,6 +3,7 @@ layout: post
 title:  "Et ferre"
 date:   2015-07-25 10:16:35
 categories: jekyll update
+featured: true
 ---
 
 ## Nam flumina demisit cupidine
