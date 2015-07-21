@@ -8,7 +8,7 @@ layout: default
     <div class="wrapper">
       <h1>Featured Article</h1>
         {% assign count = 0 %}
-          {% for post in site.posts %}
+          {% for post in site.categories['blog'] %}
             {% if post.featured == true and count < 1 %}
               <div class="post post-featured">
                 {% include post.html %}
@@ -21,13 +21,21 @@ layout: default
   </section>
 
   <!-- section for featured projects -->
-  <!-- section for latest articles -->
+  <section class="site-section">
+    <h1>Featured Projects</h1>
+    <ul class="project-list">
+      {% for project in site.categories['project'] reversed | limit:3 %}
+        {% include project.html %}
+      {% endfor %}
+    </ul>
+  </section>
 
+  <!-- section for latest articles -->
   <section class="site-section site-section-last">
     <div class="wrapper">
       <h1>Latest Articles</h1>
       <ul class="post-list">
-        {% for post in site.posts  | limit:4 %}
+        {% for post in site.categories['blog'] | limit:4 %}
           <li class="post">
             {% include post.html %}
           </li>

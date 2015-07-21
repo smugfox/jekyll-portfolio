@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "Parentem"
+title:  "Project 1"
 date:   2015-07-21 10:42:35
 categories: project
+featured: true
+featured_img: "img/project.png"
 tags: design
 ---
 
